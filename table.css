@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-bottom: 2px solid #D7D7D7;
+  margin: 5px;
+}
+
+table tr:nth-child(even) {
+  background: #D7D7D7;
+}
+
+table tr th {
+  padding: 10px;
+  border: 2px solid #fff;
+}
+
+table tr td {
+  border-right: 2px solid #D7D7D7;
+  border-left: 2px solid #D7D7D7;
+
+}
+
+table tr th > .bg-primary {
+  border: 1px solid #fff;
+}
+
+table tr td>.btn {
+  display: inline-block;
+  padding: 5px 9px;
+}

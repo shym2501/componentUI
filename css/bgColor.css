@@ -1,0 +1,39 @@
+/* BACKGROUND COLOR */
+.bg-primary {
+  background: #4285F4;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: #aa66cc;
+  color: #fff;
+}
+
+.bg-success {
+  background: #2eb82e;
+  color: #fff;
+}
+
+.bg-warning {
+  background: #ffbb33;
+  color: #fff;
+}
+
+.bg-danger {
+  background: #ff4444;
+  color: #fff;
+}
+
+.bg-info {
+  background: #33b5e5;
+  color: #fff;
+}
+
+.bg-default {
+  background: #2BBBAD;
+  color: #fff;
+}
+
+.txt-primary {
+  color: #4285F4;
+}

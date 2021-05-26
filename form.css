@@ -1,0 +1,47 @@
+.form {
+  border: 1px solid #5B5B5B;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0 5px;
+}
+
+label {
+  grid-row: 1 /span 2;
+}
+
+.form-file-btn {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px 5px;
+  padding: 0 5px;
+}
+
+.input-file {
+  border: 1px solid #4285F4;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.inp-txt {
+  height: 70px;
+}
+
+.form-file-btn > .btn {
+  width: 100%;
+  padding: 5px 9px;
+}
